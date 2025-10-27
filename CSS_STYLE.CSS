@@ -1,0 +1,37 @@
+.section {
+    display: flex;
+    background-color: green;
+    color: orange;
+    padding: 30px;
+    width: 600px;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section1 {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    width: 600px;
+}
+
+.main {
+    background-color: blueviolet;
+    padding: auto;
+    align-items: center;
+}
+
+.imagesection {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.moving-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: yellow;
+}
